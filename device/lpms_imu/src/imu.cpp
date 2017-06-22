@@ -4,8 +4,8 @@
 #include "LpmsSensorManagerI.h"
 #endif
 #ifdef __GNUC__
-#include "lpsensor/LpmsSensorI.h"
-#include "lpsensor/LpmsSensorManagerI.h"
+#include "LpmsSensorI.h"
+#include "LpmsSensorManagerI.h"
 #endif
 #include "ros/ros.h"
 #include "sensor_msgs/Imu.h"

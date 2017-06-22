@@ -1,0 +1,3 @@
+[submodule "perception/ros_mxnet_zed_ssd"]
+	path = perception/ros_mxnet_zed_ssd
+	url = https://github.com/wolfram2012/ros_mxnet_zed_ssd.git
