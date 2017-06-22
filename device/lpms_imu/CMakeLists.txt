@@ -10,6 +10,7 @@ project(lpms_imu)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -46,11 +47,11 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
+#add_message_files(
 #   FILES
 #   Message1.msg
 #   Message2.msg
-# )
+#)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -67,7 +68,7 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
+#generate_messages(
 #   DEPENDENCIES
 #   std_msgs
 # )
@@ -188,6 +189,26 @@ include_directories(
 ## Testing ##
 #############
 
+######################################################
+if(COMMAND cmake_policy)
+    cmake_policy(SET CMP0003 NEW)
+    cmake_policy(SET CMP0015 NEW)
+endif(COMMAND cmake_policy)
+
+SET(CMAKE_BUILD_TYPE "Release")
+
+set(BUILD_ARCHITECTURE "32-bit" CACHE STRING "")
+set_property(CACHE BUILD_ARCHITECTURE PROPERTY STRINGS "32-bit" "64-bit")
+
+
+ADD_DEFINITIONS(-D_CRT_SECURE_NO_DEPRECATE)      
+
+set(sources imu.cpp)
+
+
+######################################################
+include_directories(${catkin_INCLUDE_DIRS} include)   
+link_directories(${catkin_LIB_DIRS} lib) 
 ## Add gtest based cpp test target and link libraries
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_lpms_imu.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
@@ -196,3 +217,5 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+add_executable(imu_data src/imu.cpp)
+target_link_libraries(imu_data ${catkin_LIBRARIES} LpSensor.so)
