@@ -15,6 +15,8 @@
 #include "coms_msgs/LWimuID78.h"
 #include "coms_msgs/LWimuID79.h"
 
+#include "coms_protocol.h"
+
 
 namespace comsfilter
 {
@@ -54,7 +56,7 @@ namespace comsfilter
     void LwImuID79(ros::Publisher pub_handle, coms_msgs::CanMessage *can_frame);
 
     //CAN-Filter
-    void ros_publish(struct pub_set set, coms_msgs::CanMessage *can_frame);
+    // void ros_publish(struct pub_set set, coms_msgs::CanMessageStamped::ConstPtr &can_frame);
 }
 
 
