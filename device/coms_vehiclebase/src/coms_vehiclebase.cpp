@@ -43,15 +43,36 @@ void CanFilterCallback(const coms_msgs::CanMessageStamped::ConstPtr &data)
   	}
 }
 
+void ComsCommandCallback(const coms_msgs::ComsCommand::ConstPtr &data)
+{
+	coms_msgs::CanMessage out;
+	out.id = comsfilter::ID_COMS_CMD;
+	out.extended = true;
+	out.dlc = sizeof(comsfilter::ComsCmd); 
+
+	comsfilter::ComsCmd *ptr = (comsfilter::ComsCmd*)out.data.elems;
+	memset(ptr, 0x00, sizeof(*ptr));
+
+	ptr->steering_cmd =  (uint8_t)(data->steering);
+	ptr->throttle_cmd =  (uint8_t)(data->throttle);
+	ptr->brake_cmd    =  (uint8_t)(data->brake);
+	ptr->gear_cmd     =  (uint8_t)(data->gear);
+	ptr->lamps_cmd    =  (uint8_t)(data->lamps);
+
+  	comsfilter::pub_cmd.publish(out);
+}
+
 int main(int argc, char **argv)
 {
 	ros::init(argc, argv, "coms_vehiclebase");
 	ros::NodeHandle n;
 
 	//can subcriber
-	ros::Subscriber sub = n.subscribe("can_rx",1000, CanFilterCallback);
+	ros::Subscriber sub = n.subscribe("/can_rx",1000, CanFilterCallback);
 
 	//command subcriber
+	ros::Subscriber sub_cmd = n.subscribe("/coms_cmd",1000, ComsCommandCallback);
+	comsfilter::pub_cmd = n.advertise<coms_msgs::CanMessage>("/can_tx",2);
 
 	coms_msgs::CanMessage can_frame;
 	

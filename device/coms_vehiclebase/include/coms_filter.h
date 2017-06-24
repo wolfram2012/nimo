@@ -7,6 +7,7 @@
 #include "coms_msgs/CanMessage.h"
 #include "coms_msgs/CanMessageStamped.h"
 #include "coms_msgs/VehicleMessageStamp.h"
+#include "coms_msgs/ComsCommand.h"
 #include "coms_msgs/LWimuID70.h"
 #include "coms_msgs/LWimuID71.h"
 #include "coms_msgs/LWimuID72.h"
@@ -42,6 +43,8 @@ namespace comsfilter
 	struct coms_msg coms_msg;
 	struct LWimu_msg LWimu_msg;
     } canpub_set;
+
+    ros::Publisher pub_cmd;
 
     //Message from Vehicle
     void vehicleMessage(ros::Publisher pub_handle, coms_msgs::CanMessage *can_frame);

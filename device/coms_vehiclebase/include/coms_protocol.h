@@ -6,14 +6,14 @@ namespace comsfilter
 {
 	typedef struct
 	{
-  		uint16_t cur_speed :16;
-  		uint16_t cur_yaw_rate :16;
-  		uint8_t  enabled :4;
-  		uint8_t  initialized :4;
+  		uint8_t  steering_cmd :8;
   		uint8_t  :8;
-  		uint8_t  :4;
-  		uint8_t  live_counter :4;
-  		uint8_t  check_sum :8;
+  		uint8_t  lamps_cmd :8;
+  		uint8_t  gear_cmd :8;
+  		uint8_t  throttle_cmd:8;
+  		uint8_t  brake_cmd:8;
+      uint8_t  :8;
+      uint8_t  :8;
 	} ComsCmd;
 
   typedef struct
