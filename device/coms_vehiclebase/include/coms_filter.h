@@ -19,7 +19,7 @@
 #include "coms_protocol.h"
 
 
-namespace comsfilter
+namespace coms
 {
     	
     struct coms_msg

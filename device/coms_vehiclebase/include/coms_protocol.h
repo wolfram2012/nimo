@@ -2,7 +2,7 @@
 #define COMS_PROTOCOL_H
 #include <stdint.h>
 
-namespace comsfilter
+namespace coms
 {
 	typedef struct
 	{

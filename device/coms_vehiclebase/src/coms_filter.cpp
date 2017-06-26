@@ -1,6 +1,6 @@
 #include "coms_filter.h"
 
-namespace comsfilter
+namespace coms
 {
 
     /*Message from Vehicle*/
