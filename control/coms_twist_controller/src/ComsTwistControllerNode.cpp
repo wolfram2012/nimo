@@ -62,7 +62,7 @@ namespace coms
 
         // Subscribers
         sub_coms_report_ = n.subscribe("vehicle_message", 1, &ComsTwistControllerNode::recvComsReport, this);
-        sub_coms_twist_ = n.subscribe("cmd_vel_with_limits", 1, &ComsTwistControllerNode::recvComsTwistCmd, this);
+        sub_coms_twist_ = n.subscribe("coms_twist_cmd", 1, &ComsTwistControllerNode::recvComsTwistCmd, this);
         // sub_twist_ = n.subscribe("cmd_vel", 1, &TwistControllerNode::recvTwist, this);
         // sub_twist2_ = n.subscribe("cmd_vel_with_limits", 1, &TwistControllerNode::recvTwist2, this);
         // sub_twist3_ = n.subscribe("cmd_vel_stamped", 1, &TwistControllerNode::recvTwist3, this);

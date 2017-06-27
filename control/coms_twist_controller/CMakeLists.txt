@@ -94,6 +94,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate dynamic reconfigure parameters in the 'cfg' folder
  generate_dynamic_reconfigure_options(
     cfg/Controller.cfg
+    cfg/TwistTest.cfg
 #   cfg/DynReconf1.cfg
 #   cfg/DynReconf2.cfg
  )
@@ -208,4 +209,9 @@ add_executable(coms_twist_cntroller src/coms_twist_controller.cpp src/ComsTwistC
 #add_dependencies(coms_twist_cntroller ${PROJECT_NAME}_gencpp)
 add_dependencies(coms_twist_cntroller ${PROJECT_NAME}_gencfg)
 target_link_libraries(coms_twist_cntroller ${catkin_LIBRARIES})
+
+add_executable(coms_twist_tester src/coms_twist_controller_test.cpp)
+#add_dependencies(coms_twist_cntroller ${PROJECT_NAME}_gencpp)
+add_dependencies(coms_twist_tester ${PROJECT_NAME}_gencfg)
+target_link_libraries(coms_twist_tester ${catkin_LIBRARIES})
 
