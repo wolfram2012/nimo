@@ -23,7 +23,21 @@ int main(int argc, char** argv)
     LpmsSensorManagerI* manager = LpmsSensorManagerFactory();
     LpmsSensorI* lpms = manager->addSensor(DEVICE_LPMS_U2, "/dev/ttyUSB0");
    
-     ros::Rate loop(100);
+     ros::Rate loop(400);
+     // char a[50];
+     // // lpms->setConfigurationPrm(PRM_SAMPLING_RATE, SELECT_STREAM_FREQ_10HZ);
+     // while(1)
+     // {
+     //    if(lpms->setConfigurationPrm(PRM_SAMPLING_RATE, 200) != true
+     //        && lpms->setConfigurationPrm(PRM_UART_BAUDRATE, SELECT_LPMS_UART_BAUDRATE_115200) != true
+     //        && lpms->setConfigurationPrm(PRM_CAN_BAUDRATE, SELECT_CAN_BAUDRATE_125KBPS) != true)
+     //        ;
+     //    else
+     //        break;
+     // }
+    // ROS_INFO("result: %s",a);
+
+     ros::Duration(5).sleep();
      while(ros::ok())
     {		 
         
@@ -34,7 +48,7 @@ int main(int argc, char** argv)
             Imusensor_data.header.stamp=ros::Time::now();
             Imusensor_data.header.frame_id="Imu_sensor_data";
             Imusensor_data.orientation.x=d.q[0];
-	    Imusensor_data.orientation.y=d.q[1];
+	       Imusensor_data.orientation.y=d.q[1];
             Imusensor_data.orientation.z=d.q[2];
             Imusensor_data.orientation.w=d.q[3];
             Imusensor_data.angular_velocity.x=d.g[0];
