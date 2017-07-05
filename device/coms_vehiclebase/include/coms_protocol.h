@@ -18,8 +18,10 @@ namespace coms
 
   typedef struct
   {
-      uint16_t cur_speed :16;
-      uint16_t cur_steering :16;
+      uint8_t  cur_steering_h :8;
+      uint8_t  cur_steering_l :8;
+      uint8_t  cur_speed_h :8;
+      uint8_t  cur_speed_l :8;
       uint8_t  test1:8;
       uint8_t  test2:8;
       uint8_t  test3:8;

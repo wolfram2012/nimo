@@ -9,8 +9,8 @@ namespace coms
     void vehicleMessage(ros::Publisher pub_handle, coms_msgs::CanMessage *msg)
     {
     	const ComsReport *ptr = (const ComsReport*)msg->data.elems;
-  		float speed = (float)ptr->cur_speed / 65536.0 * 10;
-  		float steering = (float)ptr->cur_steering / 65535.0 * 70 - 35;
+  		float speed = ((float)ptr->cur_speed_h*256 + ptr->cur_speed_l) / 65536.0 * 10;
+  		float steering = ((float)ptr->cur_steering_h*256 + ptr->cur_steering_l) / 65535.0 * 70 - 35;
 
   		// ROS_INFO("test1 = %d",ptr->test1);
   		coms_msgs::VehicleMessageStamp data;

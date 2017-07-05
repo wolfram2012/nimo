@@ -5,8 +5,9 @@
 
 void CanFilterCallback(const coms_msgs::CanMessageStamped::ConstPtr &data)
 {
-	coms_msgs::CanMessage *can_frame;
-	for(int i=0; i<7; i++) 
+	coms_msgs::CanMessage a;
+	coms_msgs::CanMessage *can_frame = &a;
+	for(int i=0; i<8; i++) 
 		can_frame->data[i] = data->msg.data[i];
 	can_frame->id = data->msg.id;
 	can_frame->dlc = data->msg.dlc;;
@@ -88,4 +89,5 @@ int main(int argc, char **argv)
 			   					n.advertise<coms_msgs::LWimuID79>("LW_Imu/ID79",2) 
 			   				};
 	ros::spin();
+	return 0;
 }

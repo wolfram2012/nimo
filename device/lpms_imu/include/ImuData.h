@@ -53,16 +53,16 @@ typedef struct _ImuData {
     // The OpenMAT ID of the sensor that created this data structure.
     int openMatId;
 
-    // Calibrated accelerometer sensor data.  标刻度的加速度计
+    // Calibrated accelerometer sensor data. 
     float a[3];
 
-    // Calibrated gyroscope sensor data.  陀螺仪
+    // Calibrated gyroscope sensor data.  
     float g[3];
 
-    // Calibrated magnetometer sensor data.  磁
+    // Calibrated magnetometer sensor data.  
     float b[3];
 
-    // Angular velocity data.   角速度
+    // Angular velocity data.   
     float w[3];
 
     // Euler angle data.
