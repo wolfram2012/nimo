@@ -1,0 +1,2 @@
+float64 logtitudeErr
+float64 lateralErr

@@ -56,6 +56,7 @@ find_package(catkin REQUIRED COMPONENTS
    CanMessageStamped.msg
    coms_msgs/VehicleMessageStamp.msg
    coms_msgs/ComsCommand.msg
+   acc_msgs/ACCCommand.msg
    LWimu_msgs/LWimuID70.msg
    LWimu_msgs/LWimuID71.msg
    LWimu_msgs/LWimuID72.msg
