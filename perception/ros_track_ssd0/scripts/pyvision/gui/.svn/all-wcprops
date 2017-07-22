@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/pyvision/!svn/ver/389/trunk/src/pyvision/gui
+END
+SimpleLiveDemo.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/pyvision/!svn/ver/331/trunk/src/pyvision/gui/SimpleLiveDemo.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/4/trunk/src/pyvision/gui/__init__.py
+END
+EyePicker.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/pyvision/!svn/ver/155/trunk/src/pyvision/gui/EyePicker.py
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/pyvision/!svn/ver/389/trunk/src/pyvision/gui/setup.py
+END

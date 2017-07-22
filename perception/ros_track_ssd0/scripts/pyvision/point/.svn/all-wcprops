@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/pyvision/!svn/ver/399/trunk/src/pyvision/point
+END
+PhaseCorrelation.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/pyvision/!svn/ver/155/trunk/src/pyvision/point/PhaseCorrelation.py
+END
+PointLocator.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/pyvision/!svn/ver/399/trunk/src/pyvision/point/PointLocator.py
+END
+DetectorDOG.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/pyvision/!svn/ver/329/trunk/src/pyvision/point/DetectorDOG.py
+END
+DetectorROI.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/pyvision/!svn/ver/155/trunk/src/pyvision/point/DetectorROI.py
+END
+GaborJets.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/382/trunk/src/pyvision/point/GaborJets.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/pyvision/!svn/ver/4/trunk/src/pyvision/point/__init__.py
+END
+DetectorSURF.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/pyvision/!svn/ver/163/trunk/src/pyvision/point/DetectorSURF.py
+END
+DetectorCorner.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/pyvision/!svn/ver/329/trunk/src/pyvision/point/DetectorCorner.py
+END
+DetectorHarris.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/pyvision/!svn/ver/329/trunk/src/pyvision/point/DetectorHarris.py
+END

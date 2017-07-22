@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/pyvision/!svn/ver/207/trunk/src/pyvision/util
+END
+fast_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/pyvision/!svn/ver/207/trunk/src/pyvision/util/fast_util.py
+END
+windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/pyvision/!svn/ver/111/trunk/src/pyvision/util/windows.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/pyvision/!svn/ver/47/trunk/src/pyvision/util/__init__.py
+END

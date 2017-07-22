@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/pyvision/!svn/ver/398/trunk/src/pyvision/ml
+END
+libsvm.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/pyvision/!svn/ver/304/trunk/src/pyvision/ml/libsvm.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/pyvision/!svn/ver/258/trunk/src/pyvision/ml/__init__.py
+END
+pca.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/pyvision/!svn/ver/260/trunk/src/pyvision/ml/pca.py
+END
+knn.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/pyvision/!svn/ver/398/trunk/src/pyvision/ml/knn.py
+END
+lda.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/pyvision/!svn/ver/287/trunk/src/pyvision/ml/lda.py
+END

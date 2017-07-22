@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/pyvision/!svn/ver/393/trunk/src/pyvision/vector
+END
+RANSAC.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/pyvision/!svn/ver/155/trunk/src/pyvision/vector/RANSAC.py
+END
+Polynomial.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/pyvision/!svn/ver/94/trunk/src/pyvision/vector/Polynomial.py
+END
+VectorClassifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/pyvision/!svn/ver/393/trunk/src/pyvision/vector/VectorClassifier.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/pyvision/!svn/ver/40/trunk/src/pyvision/vector/__init__.py
+END
+linearreg.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/19/trunk/src/pyvision/vector/linearreg.py
+END
+PCA.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/393/trunk/src/pyvision/vector/PCA.py
+END
+RidgeRegression.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/pyvision/!svn/ver/393/trunk/src/pyvision/vector/RidgeRegression.py
+END
+SVM.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/393/trunk/src/pyvision/vector/SVM.py
+END
+id3.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/pyvision/!svn/ver/34/trunk/src/pyvision/vector/id3.py
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/pyvision/!svn/ver/408/trunk/src/pyvision/types
+END
+testsuite.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/401/trunk/src/pyvision/types/testsuite.py
+END
+Rect.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/348/trunk/src/pyvision/types/Rect.py
+END
+img.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/pyvision/!svn/ver/405/trunk/src/pyvision/types/img.py
+END
+Point.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/pyvision/!svn/ver/389/trunk/src/pyvision/types/Point.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/pyvision/!svn/ver/44/trunk/src/pyvision/types/__init__.py
+END
+Affine.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/pyvision/!svn/ver/327/trunk/src/pyvision/types/Affine.py
+END
+RangeImage.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/pyvision/!svn/ver/389/trunk/src/pyvision/types/RangeImage.py
+END
+Perspective.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/pyvision/!svn/ver/389/trunk/src/pyvision/types/Perspective.py
+END
+ImageBuffer.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/pyvision/!svn/ver/389/trunk/src/pyvision/types/ImageBuffer.py
+END
+Video.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/pyvision/!svn/ver/408/trunk/src/pyvision/types/Video.py
+END

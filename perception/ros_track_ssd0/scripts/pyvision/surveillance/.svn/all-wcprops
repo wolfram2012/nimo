@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/pyvision/!svn/ver/411/trunk/src/pyvision/surveillance
+END
+VideoStreamProcessor.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/pyvision/!svn/ver/411/trunk/src/pyvision/surveillance/VideoStreamProcessor.py
+END
+testsuite.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/pyvision/!svn/ver/340/trunk/src/pyvision/surveillance/testsuite.py
+END
+BackgroundSubtraction.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/pyvision/!svn/ver/234/trunk/src/pyvision/surveillance/BackgroundSubtraction.py
+END
+optical_flow.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/pyvision/!svn/ver/391/trunk/src/pyvision/surveillance/optical_flow.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/pyvision/!svn/ver/212/trunk/src/pyvision/surveillance/__init__.py
+END
+MotionDetector.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/pyvision/!svn/ver/391/trunk/src/pyvision/surveillance/MotionDetector.py
+END

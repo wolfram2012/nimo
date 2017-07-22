@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/pyvision/!svn/ver/207/trunk/src/pyvision/edge
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/pyvision/!svn/ver/4/trunk/src/pyvision/edge/__init__.py
+END
+sobel.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/185/trunk/src/pyvision/edge/sobel.py
+END
+canny.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/207/trunk/src/pyvision/edge/canny.py
+END

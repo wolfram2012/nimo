@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/pyvision/!svn/ver/400/trunk/src/pyvision/face
+END
+testsuite.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/pyvision/!svn/ver/396/trunk/src/pyvision/face/testsuite.py
+END
+FaceRecognizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/pyvision/!svn/ver/207/trunk/src/pyvision/face/FaceRecognizer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/pyvision/!svn/ver/381/trunk/src/pyvision/face/__init__.py
+END
+PCA.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/pyvision/!svn/ver/155/trunk/src/pyvision/face/PCA.py
+END
+FilterEyeLocator.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/pyvision/!svn/ver/332/trunk/src/pyvision/face/FilterEyeLocator.py
+END
+SVMEyeDetector.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/pyvision/!svn/ver/400/trunk/src/pyvision/face/SVMEyeDetector.py
+END
+CascadeDetector.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/pyvision/!svn/ver/155/trunk/src/pyvision/face/CascadeDetector.py
+END
+SVMFaceRec.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/396/trunk/src/pyvision/face/SVMFaceRec.py
+END

@@ -1,0 +1,110 @@
+10
+
+dir
+413
+http://pyvision.svn.sourceforge.net/svnroot/pyvision/trunk/src/pyvision
+http://pyvision.svn.sourceforge.net/svnroot/pyvision
+
+
+
+2012-01-06T00:07:09.938241Z
+412
+bolme
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2a83181e-c148-0410-bf7c-9f1693d9d8f0
+
+__init__.py
+file
+
+
+
+
+2012-01-08T17:29:15.000000Z
+5253666c90dd92de04e7d2a4f018fe78
+2012-01-05T17:27:43.759929Z
+406
+svohara
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18210
+
+analysis
+dir
+
+config
+dir
+
+data
+dir
+
+edge
+dir
+
+face
+dir
+
+features
+dir
+
+gui
+dir
+
+ml
+dir
+
+optimize
+dir
+
+other
+dir
+
+point
+dir
+
+surveillance
+dir
+
+tools
+dir
+
+types
+dir
+
+util
+dir
+
+vector
+dir
+

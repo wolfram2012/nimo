@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/pyvision/!svn/ver/330/trunk/src/pyvision/optimize
+END
+testsuite.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/pyvision/!svn/ver/330/trunk/src/pyvision/optimize/testsuite.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/4/trunk/src/pyvision/optimize/__init__.py
+END
+genetic.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/pyvision/!svn/ver/317/trunk/src/pyvision/optimize/genetic.py
+END

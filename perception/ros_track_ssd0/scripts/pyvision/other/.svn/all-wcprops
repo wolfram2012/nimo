@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/pyvision/!svn/ver/394/trunk/src/pyvision/other
+END
+testsuite.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/336/trunk/src/pyvision/other/testsuite.py
+END
+surf.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/pyvision/!svn/ver/334/trunk/src/pyvision/other/surf.py
+END
+distance.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/pyvision/!svn/ver/141/trunk/src/pyvision/other/distance.py
+END
+color.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/pyvision/!svn/ver/394/trunk/src/pyvision/other/color.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/pyvision/!svn/ver/4/trunk/src/pyvision/other/__init__.py
+END
+normalize.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/pyvision/!svn/ver/355/trunk/src/pyvision/other/normalize.py
+END
+texture.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/pyvision/!svn/ver/380/trunk/src/pyvision/other/texture.py
+END
